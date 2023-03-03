@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="text_index_tags=all_shared" db_object_id="43d28d9647c521104f7fee38436d43d1" label="Books" max_length="40" name="x_801107_library_m_books" text_index="true" type="collection">
+        <element label="Assigned By" max_length="32" name="assigned_by" reference="x_801107_library_m_staff" type="reference"/>
+        <element label="Assigned Date Time" max_length="40" name="assigned_date_time" type="glide_date_time"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;if (current.member) {&#13;&#10;        return 'x_801107_library_m_members';&#13;&#10;    } else {&#13;&#10;        return 'x_801107_library_m_students';&#13;&#10;    }  // return the calculated value&#13;&#10;&#13;&#10;})(current);" dependent="table_name" dependent_on_field="table_name" label="Assigned To" max_length="32" name="assigned_to" type="document_id" use_dependent_field="true"/>
+        <element label="Author" max_length="100" name="author" read_only="true" type="string"/>
+        <element default="true" label="available" max_length="40" name="available" type="boolean"/>
+        <element label="ISBN" max_length="20" name="isbn" read_only="true" type="string"/>
+        <element active="false" attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Published Year" max_length="4" name="published_year" read_only="true" type="string"/>
+        <element label="Publisher" max_length="100" name="publisher" read_only="true" type="string"/>
+        <element label="Return Due On" max_length="40" name="return_date_time" type="glide_date_time"/>
+        <element attributes="tableChoicesScript=SelectTables" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;    // Add your code here&#13;&#10;    if (current.member) {&#13;&#10;        return 'x_801107_library_m_members';&#13;&#10;    } else {&#13;&#10;        return 'x_801107_library_m_students';&#13;&#10;    }&#13;&#10;    // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" default="x_801107_library_m_students" label="Table Name" max_length="80" name="table_name" type="table_name">
+            <choice/>
+        </element>
+        <element display="true" label="Title" max_length="150" name="title" read_only="true" type="string"/>
+        <index name="index">
+            <element name="assigned_by"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

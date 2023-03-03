@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="Public">70adf758ddd16110754ecdc90c4ab40c</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-25 04:30:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>78adf75802d161107152e6f1adb2990c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>m2m_app_config_theme_78adf75802d161107152e6f1adb2990c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-25 04:30:30</sys_updated_on>
+        <theme display_value="Light Theme">f0adf75890d16110862d73840e1e1f0c</theme>
+        <ux_app_configuration display_value="Library MAnagement Config">20adb75847d161104f7fee38436d43de</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains>
+        <role display_value="x_801107_library_m.student" name="x_801107_library_m.student">1a31451647c521104f7fee38436d4358</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 04:26:39</sys_created_on>
+        <sys_id>9cccbfd447d161104f7fee38436d4316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_user.x_801107_library_m.student</sys_name>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>sys_user_role_contains_9cccbfd447d161104f7fee38436d4316</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 04:26:39</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

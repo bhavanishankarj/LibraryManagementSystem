@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Books">b4ccbfd447d161104f7fee38436d43a2</ais_search_source>
+        <label>Books</label>
+        <name>Books</name>
+        <order>100</order>
+        <search_context_config display_value="Library MAnagement AI Search Configuration">d7bc3fd433d161102e5c335e3f04667a</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 04:26:41</sys_created_on>
+        <sys_id>70ccbfd447d161104f7fee38436d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Books</sys_name>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>sys_search_filter_70ccbfd447d161104f7fee38436d43b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 04:26:41</sys_updated_on>
+    </sys_search_filter>
+</record_update>

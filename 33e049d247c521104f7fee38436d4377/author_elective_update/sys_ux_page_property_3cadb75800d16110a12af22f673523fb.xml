@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="Library MAnagement">78adb75876d16110b7c977f2e413faf9</page>
+        <required_translations>[ {
+  "message" : "Configure",
+  "comment" : ""
+}, {
+  "message" : "Documentation",
+  "comment" : ""
+}, {
+  "message" : "Home",
+  "comment" : ""
+}, {
+  "message" : "Logout",
+  "comment" : ""
+}, {
+  "message" : "UserMenu",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-25 04:30:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>3cadb75800d16110a12af22f673523fb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>sys_ux_page_property_3cadb75800d16110a12af22f673523fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-28 13:45:25</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_801107_library_m.78adb75876d16110b7c977f2e413faf9.root.chrome_header</unique_name>
+        <value>{&#13;
+  "privatePage": {&#13;
+    "notificationsEnabled": false,&#13;
+    "searchEnabled": false,&#13;
+    "userPrefsEnabled": true,&#13;
+    "contextualConfigurationItems": {&#13;
+      "enabled": false&#13;
+    },&#13;
+    "globalTools": {&#13;
+      "collapsingMenuId": 0,&#13;
+      "primaryItems": [&#13;
+        {&#13;
+          "label": "UserMenu",&#13;
+          "icon": "user",&#13;
+          "type": "menu",&#13;
+          "primaryDisplay": "icon",&#13;
+          "value": {&#13;
+            "children": [&#13;
+              {&#13;
+                "label": "Configure",&#13;
+                "type": "navigation",&#13;
+                "position": 50,&#13;
+                "primaryDisplay": "none",&#13;
+                "value": {&#13;
+                  "type": "external",&#13;
+                  "opensWindow": "true",&#13;
+                  "value": {&#13;
+                    "href": "/nav_to.do?uri=/sys_ux_app_config.do?sys_id=4a1c734573021010e12d1e3014f6a7b8"&#13;
+                  }&#13;
+                },&#13;
+                "_roles": [&#13;
+                  "maint"&#13;
+                ]&#13;
+              },&#13;
+              {&#13;
+                "label": "Home",&#13;
+                "position": 100,&#13;
+                "type": "navigation",&#13;
+                "value": {&#13;
+                  "type": "route",&#13;
+                  "value": {&#13;
+                   "reload": "true",&#13;
+                    "route": "home",&#13;
+                    "fields": {}&#13;
+                  }&#13;
+                }&#13;
+              },&#13;
+              {&#13;
+                "label": "Documentation",&#13;
+                "type": "navigation",&#13;
+                "position": 200,&#13;
+                "primaryDisplay": "none",&#13;
+                "value": {&#13;
+                  "type": "external",&#13;
+                  "opensWindow": "true",&#13;
+                  "value": {&#13;
+                    "href": "https://docs.servicenow.com/bundle/quebec-servicenow-platform/page/product/service-catalog-management/concept/catalog-builder.html"&#13;
+                  }&#13;
+                }&#13;
+              },&#13;
+              {&#13;
+                "label": "Logout",&#13;
+                "position": 500,&#13;
+                "type": "navigation",&#13;
+                 "value":{&#13;
+                  "value":{&#13;
+                    "href": "/logout.do"&#13;
+                  },&#13;
+                  "type":"external"&#13;
+                }&#13;
+              }&#13;
+            ]&#13;
+          }&#13;
+        }&#13;
+      ],&#13;
+      "secondaryItems": []&#13;
+    }&#13;
+  },&#13;
+  "publicPage": {&#13;
+    "actionButtons": [],&#13;
+    "notificationsEnabled": false,&#13;
+    "searchEnabled": false,&#13;
+    "userPrefsEnabled": false,&#13;
+    "menuEnabled": false&#13;
+  }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=3cadb75800d16110a12af22f673523fb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">33e049d247c521104f7fee38436d4377</application>
+        <file_path/>
+        <instance_id>e409570adb01a5d0c1a4c59705961937</instance_id>
+        <instance_name>dev149975</instance_name>
+        <name>sys_ux_page_property_3cadb75800d16110a12af22f673523fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="Library MAnagement">78adb75876d16110b7c977f2e413faf9</page><required_translations>[ {
+  "message" : "Configure",
+  "comment" : ""
+}, {
+  "message" : "Documentation",
+  "comment" : ""
+}, {
+  "message" : "Home",
+  "comment" : ""
+}, {
+  "message" : "Logout",
+  "comment" : ""
+}, {
+  "message" : "UserMenu",
+  "comment" : ""
+} ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-02-25 04:30:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>3cadb75800d16110a12af22f673523fb</sys_id><sys_mod_count>3</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package><sys_policy/><sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope><sys_update_name>sys_ux_page_property_3cadb75800d16110a12af22f673523fb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-28 13:45:25</sys_updated_on><type>json</type><unique_name>x_801107_library_m.78adb75876d16110b7c977f2e413faf9.root.chrome_header</unique_name><value>{&#13;
+  "privatePage": {&#13;
+    "notificationsEnabled": false,&#13;
+    "searchEnabled": false,&#13;
+    "userPrefsEnabled": true,&#13;
+    "contextualConfigurationItems": {&#13;
+      "enabled": false&#13;
+    },&#13;
+    "globalTools": {&#13;
+      "collapsingMenuId": 0,&#13;
+      "primaryItems": [&#13;
+        {&#13;
+          "label": "UserMenu",&#13;
+          "icon": "user",&#13;
+          "type": "menu",&#13;
+          "primaryDisplay": "icon",&#13;
+          "value": {&#13;
+            "children": [&#13;
+              {&#13;
+                "label": "Configure",&#13;
+                "type": "navigation",&#13;
+                "position": 50,&#13;
+                "primaryDisplay": "none",&#13;
+                "value": {&#13;
+                  "type": "external",&#13;
+                  "opensWindow": "true",&#13;
+                  "value": {&#13;
+                    "href": "/nav_to.do?uri=/sys_ux_app_config.do?sys_id=4a1c734573021010e12d1e3014f6a7b8"&#13;
+                  }&#13;
+                },&#13;
+                "_roles": [&#13;
+                  "maint"&#13;
+                ]&#13;
+              },&#13;
+              {&#13;
+                "label": "Home",&#13;
+                "position": 100,&#13;
+                "type": "navigation",&#13;
+                "value": {&#13;
+                  "type": "route",&#13;
+                  "value": {&#13;
+                   "reload": "true",&#13;
+                    "route": "home",&#13;
+                    "fields": {}&#13;
+                  }&#13;
+                }&#13;
+              },&#13;
+              {&#13;
+                "label": "Documentation",&#13;
+                "type": "navigation",&#13;
+                "position": 200,&#13;
+                "primaryDisplay": "none",&#13;
+                "value": {&#13;
+                  "type": "external",&#13;
+                  "opensWindow": "true",&#13;
+                  "value": {&#13;
+                    "href": "https://docs.servicenow.com/bundle/quebec-servicenow-platform/page/product/service-catalog-management/concept/catalog-builder.html"&#13;
+                  }&#13;
+                }&#13;
+              },&#13;
+              {&#13;
+                "label": "Logout",&#13;
+                "position": 500,&#13;
+                "type": "navigation",&#13;
+                 "value":{&#13;
+                  "value":{&#13;
+                    "href": "/logout.do"&#13;
+                  },&#13;
+                  "type":"external"&#13;
+                }&#13;
+              }&#13;
+            ]&#13;
+          }&#13;
+        }&#13;
+      ],&#13;
+      "secondaryItems": []&#13;
+    }&#13;
+  },&#13;
+  "publicPage": {&#13;
+    "actionButtons": [],&#13;
+    "notificationsEnabled": false,&#13;
+    "searchEnabled": false,&#13;
+    "userPrefsEnabled": false,&#13;
+    "menuEnabled": false&#13;
+  }&#13;
+}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=3cadb75800d16110a12af22f673523fb"/></record_update>]]></payload>
+        <payload_hash>-108337801</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>33e049d247c521104f7fee38436d4379</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-28 13:45:26</sys_created_on>
+        <sys_id>b2695d2947d165104f7fee38436d4367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186984555600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-28 13:45:26</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>fa695d299ed16510baea4edfcef43a66</update_guid>
+        <update_guid_history>fa695d299ed16510baea4edfcef43a66:-108337801,62e85d6978516510533fc62abc7f0b97:-703120483,6e37786978516510665a3e842cd2de55:-134199555,26377869df5165109e13d2be5a3ffe54:1180131669</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-28 15:09:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>b741cc9ed5704324a360f50f6406df10</sys_id>
+        <sys_metadata>3cadb75800d16110a12af22f673523fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_scope_delete display_value="">0fc6264ed90343b0bb364fa873519240</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_3cadb75800d16110a12af22f673523fb</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_3cadb75800d16110a12af22f673523fb">b2695d2947d165104f7fee38436d4367</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-28 15:09:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

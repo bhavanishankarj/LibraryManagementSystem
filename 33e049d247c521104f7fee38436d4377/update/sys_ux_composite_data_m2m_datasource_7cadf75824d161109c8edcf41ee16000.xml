@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">b0adf7583ad1611093ef3c8f058f9101</dataset>
+        <datasource display_value="Custom Portal Catalog Item page - Related Items Datasource">f4adf7589fd161101b9847a450d85700</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-25 04:30:32</sys_created_on>
+        <sys_id>7cadf75824d161109c8edcf41ee16000</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_7cadf75824d161109c8edcf41ee16000</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-25 04:30:32</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_801107_library_m_assignment_history" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_801107_library_m_assignment_history" element="NULL" name="x_801107_library_m_assignment_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a8364c8f47c521104f7fee38436d43c8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-20 13:17:01</sys_created_on>
+            <sys_id>68364c8f47c521104f7fee38436d43c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-20 13:17:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_by</element>
+            <list_id display_value="x_801107_library_m_assignment_history" element="NULL" name="x_801107_library_m_assignment_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a8364c8f47c521104f7fee38436d43c8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-20 13:17:01</sys_created_on>
+            <sys_id>ec364c8f47c521104f7fee38436d43c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-20 13:17:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_date_time</element>
+            <list_id display_value="x_801107_library_m_assignment_history" element="NULL" name="x_801107_library_m_assignment_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a8364c8f47c521104f7fee38436d43c8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-20 13:17:01</sys_created_on>
+            <sys_id>60364c8f47c521104f7fee38436d43ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-20 13:17:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_801107_library_m_assignment_history" element="NULL" name="x_801107_library_m_assignment_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a8364c8f47c521104f7fee38436d43c8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-20 13:17:01</sys_created_on>
+            <sys_id>e0364c8f47c521104f7fee38436d43ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-20 13:17:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>book</element>
+            <list_id display_value="x_801107_library_m_assignment_history" element="NULL" name="x_801107_library_m_assignment_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a8364c8f47c521104f7fee38436d43c8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-20 13:17:01</sys_created_on>
+            <sys_id>64364c8f47c521104f7fee38436d43ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-20 13:17:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>returned_date_time</element>
+            <list_id display_value="x_801107_library_m_assignment_history" element="NULL" name="x_801107_library_m_assignment_history" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a8364c8f47c521104f7fee38436d43c8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-20 13:17:01</sys_created_on>
+            <sys_id>e4364c8f47c521104f7fee38436d43ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-20 13:17:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_801107_library_m_assignment_history</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-20 13:17:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8364c8f47c521104f7fee38436d43c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_801107_library_m_assignment_history</sys_name>
+            <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+            <sys_update_name>sys_ui_list_x_801107_library_m_assignment_history_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-20 13:17:01</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>300</order>
+        <search_context_config display_value="Library MAnagement - Workspace Search">d3bc3fd49dd161105c2eefa1654b547e</search_context_config>
+        <source display_value="Library MAnagement - x_801107_library_m_students">38ccbfd447d161104f7fee38436d4370</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 04:26:40</sys_created_on>
+        <sys_id>38ccbfd447d161104f7fee38436d4398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_38ccbfd447d161104f7fee38436d4398</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 04:26:40</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

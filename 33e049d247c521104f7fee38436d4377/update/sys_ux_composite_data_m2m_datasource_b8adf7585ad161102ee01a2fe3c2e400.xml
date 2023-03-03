@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Requests Dataset">38adf75842d1611089071097ff033201</dataset>
+        <datasource display_value="My Request - Incident datasource">f8adf758ccd1611089c48297edf0da00</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-25 04:30:32</sys_created_on>
+        <sys_id>b8adf7585ad161102ee01a2fe3c2e400</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_b8adf7585ad161102ee01a2fe3c2e400</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-25 04:30:32</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

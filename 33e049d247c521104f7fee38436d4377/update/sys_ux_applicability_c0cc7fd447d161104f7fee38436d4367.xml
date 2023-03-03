@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_801107_library_m.Audience for app library-management</api_name>
+        <description/>
+        <name>Audience for app library-management</name>
+        <roles>138ebb7647c521104f7fee38436d43d0,b683499647c521104f7fee38436d435d,e231859247c521104f7fee38436d43ed,0714051a47c521104f7fee38436d435d,1a31451647c521104f7fee38436d4358,73d341d247c521104f7fee38436d4355</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 04:26:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c0cc7fd447d161104f7fee38436d4367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app library-management</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>sys_ux_applicability_c0cc7fd447d161104f7fee38436d4367</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 04:26:37</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

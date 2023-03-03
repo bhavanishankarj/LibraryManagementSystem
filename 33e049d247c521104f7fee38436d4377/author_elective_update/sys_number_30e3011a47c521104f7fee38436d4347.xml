@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_801107_library_m_students">x_801107_library_m_students</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>ID</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 09:51:06</sys_created_on>
+        <sys_id>30e3011a47c521104f7fee38436d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ID</sys_name>
+        <sys_package display_value="Library MAnagement" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library MAnagement">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>sys_number_30e3011a47c521104f7fee38436d4347</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-18 09:51:06</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">33e049d247c521104f7fee38436d4377</application>
+        <file_path/>
+        <instance_id>e409570adb01a5d0c1a4c59705961937</instance_id>
+        <instance_name>dev149975</instance_name>
+        <name>sys_number_30e3011a47c521104f7fee38436d4347</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_801107_library_m_students">x_801107_library_m_students</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>ID</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-18 09:51:06</sys_created_on><sys_id>30e3011a47c521104f7fee38436d4347</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ID</sys_name><sys_package display_value="Library MAnagement" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package><sys_policy/><sys_scope display_value="Library MAnagement">33e049d247c521104f7fee38436d4377</sys_scope><sys_update_name>sys_number_30e3011a47c521104f7fee38436d4347</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-18 09:51:06</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-227255191</payload_hash>
+        <record_name>ID</record_name>
+        <reverted_from/>
+        <source>33e049d247c521104f7fee38436d4379</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-18 09:51:08</sys_created_on>
+        <sys_id>dde3011a47c521104f7fee38436d4373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18663ef3dad0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-18 09:51:08</sys_updated_on>
+        <type>Number</type>
+        <update_guid>19e3011af7c5211028819284ff39c973</update_guid>
+        <update_guid_history>19e3011af7c5211028819284ff39c973:-227255191</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-20 10:25:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>0249647b86fa436488e82ce71a729e24</sys_id>
+        <sys_metadata>30e3011a47c521104f7fee38436d4347</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ID</sys_name>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_parent display_value="">af9389d647c521104f7fee38436d431e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_scope_delete display_value="">0fc6264ed90343b0bb364fa873519240</sys_scope_delete>
+        <sys_update_name>sys_number_30e3011a47c521104f7fee38436d4347</sys_update_name>
+        <sys_update_version display_value="sys_number_30e3011a47c521104f7fee38436d4347">dde3011a47c521104f7fee38436d4373</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-20 10:25:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

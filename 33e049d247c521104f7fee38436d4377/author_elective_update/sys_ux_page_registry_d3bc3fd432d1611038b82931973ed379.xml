@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>5bbc3fd429d1611009385b29d6d3d17f</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>library-management</path>
+        <root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 04:26:35</sys_created_on>
+        <sys_id>d3bc3fd432d1611038b82931973ed379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Library MAnagement</sys_name>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>sys_ux_page_registry_d3bc3fd432d1611038b82931973ed379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 04:26:35</sys_updated_on>
+        <title>Library MAnagement</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">33e049d247c521104f7fee38436d4377</application>
+        <file_path/>
+        <instance_id>e409570adb01a5d0c1a4c59705961937</instance_id>
+        <instance_name>dev149975</instance_name>
+        <name>sys_ux_page_registry_d3bc3fd432d1611038b82931973ed379</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>5bbc3fd429d1611009385b29d6d3d17f</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>library-management</path><root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-25 04:26:35</sys_created_on><sys_id>d3bc3fd432d1611038b82931973ed379</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Library MAnagement</sys_name><sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package><sys_policy/><sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope><sys_update_name>sys_ux_page_registry_d3bc3fd432d1611038b82931973ed379</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-25 04:26:35</sys_updated_on><title>Library MAnagement</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-2005214463</payload_hash>
+        <record_name>Library MAnagement</record_name>
+        <reverted_from/>
+        <source>778a2702470121104f7fee38436d4305</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-02-18 03:20:49</sys_created_on>
+        <sys_id>c5176091479125104f7fee38436d43b5</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1866289e2680000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>85176091b591251037801ee28d5d44b5</update_guid>
+        <update_guid_history>85176091b591251037801ee28d5d44b5:-2005214463</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-27 15:27:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>524084fa1f1d4b1bba4f99f5540711a9</sys_id>
+        <sys_metadata>d3bc3fd432d1611038b82931973ed379</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Library MAnagement</sys_name>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_scope_delete display_value="">0fc6264ed90343b0bb364fa873519240</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_d3bc3fd432d1611038b82931973ed379</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_d3bc3fd432d1611038b82931973ed379">c5176091479125104f7fee38436d43b5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-27 15:27:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_801107_library_m.LibraryUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>LibraryUtils</name>
+        <script><![CDATA[var LibraryUtils = Class.create();
+LibraryUtils.prototype = {
+    initialize: function() {
+		
+	},
+	
+    checkEligibility: function(assignedTo, type) {
+		try{
+			var count =0;
+		var eligible = true;
+		var limit = 1;
+		if(type == 'x_801107_library_m_members'){
+			limit = 10;
+		}
+		if(type == 'x_801107_library_m_students'){
+			limit = 5;
+		}
+       var gr = new GlideRecord('x_801107_library_m_books');
+        gr.addQuery('assigned_to', assignedTo);
+        gr.query();
+        while (gr.next()) {
+            count += 1;
+           if (count == limit) {
+                    eligible = false;
+                } else {
+                    eligible = true;
+                }
+        }
+        return eligible;
+
+		}catch(err){
+			gs.addErrorMessage("script include", err);
+		}
+		
+    },
+	
+    errorMessage: function(assignedTo, type) {
+        var assigned_to_name = assignedTo.name;
+		var isEligible = this.checkEligibility(assignedTo, type);
+        var link = "href='https://dev149975.service-now.com/x_801107_library_m_books_list.do?sysparm_query=assigned_to%3D" + assignedTo + "&sysparm_view='";
+        var mess;
+        if (!isEligible && type == 'x_801107_library_m_members') {
+            mess = "{0} has 10 books in their possession so this book cannot be issued. To see the list of Books <a {1}>Click Here</a>";
+			return gs.addErrorMessage(gs.getMessage(mess, [assigned_to_name, link]));
+        }
+        if (!isEligible && type == 'x_801107_library_m_students') {
+            mess = "{0} has 5 books in their possession so this book cannot be issued. To see the list of Books <a {1}>Click Here</a>";
+			return gs.addErrorMessage(gs.getMessage(mess, [assigned_to_name, link]));
+        }
+		if(isEligible){
+			mess = "{0} is eligible";
+			return gs.addInfoMessage(gs.getMessage(mess, [assigned_to_name, link]));
+		}
+        
+    },
+
+	nowDateTime: function() {
+		var time = new GlideDateTime();
+		return time;
+	},
+	
+	dueDateTime: function(type) {
+		var due = new GlideDateTime();
+		if(type == 'x_801107_library_m_members'){
+			due.addDaysUTC(20);
+		}
+		if(type == 'x_801107_library_m_students'){
+			due.addDaysUTC(10);
+		}
+		return due;
+	},
+
+    type: 'LibraryUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-02 05:21:30</sys_created_on>
+        <sys_id>a619b94a475121104f7fee38436d43bb</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>LibraryUtils</sys_name>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>sys_script_include_a619b94a475121104f7fee38436d43bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-02 13:23:15</sys_updated_on>
+    </sys_script_include>
+</record_update>

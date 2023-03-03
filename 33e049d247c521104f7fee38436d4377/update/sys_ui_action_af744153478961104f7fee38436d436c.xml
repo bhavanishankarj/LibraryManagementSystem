@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>extend</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>(gs.hasRole("admin")||gs.hasRole("x_801107_library_m.chief_librarian")||gs.hasRole("x_801107_library_m_staff"))&amp;&amp;(current.status=="issued")</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>true</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>true</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Extend Due Date </name>
+        <onclick>extendDateTime()</onclick>
+        <order>100</order>
+        <script><![CDATA[// if (current.extended_once == true) {
+//     gs.addErrorMessage('Cannot extend more than once');
+//     current.update();
+//     action.setRedirectURL(current);
+// } else {
+    var gdt = new GlideDateTime(current.returned_date_time);
+    gdt.addDaysUTC(7);
+    current.returned_date_time = gdt;
+    current.status = 'extended';
+	current.extended_once = true;
+    var gr = new GlideRecord('x_801107_library_m_books');
+    gr.addQuery('assigned_date_time', current.assigned_date_time);
+    gr.addQuery('sys_id', current.book);
+    gr.addQuery('assigned_to', current.assigned_to);
+    gr.query();
+    while (gr.next()) {
+        gr.setValue('return_date_time', current.returned_date_time);
+        gr.update();
+    }
+
+    current.update();
+	action.setRedirectURL(current);
+// }
+//  &&(gs.daysAgo(0) < current.return_date_time)]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 12:27:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af744153478961104f7fee38436d436c</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Extend Due Date </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>sys_ui_action_af744153478961104f7fee38436d436c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-01 10:29:04</sys_updated_on>
+        <table>x_801107_library_m_assignment_history</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>member</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>change table name</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+//
+    }
+    if (g_form.getValue('member')) {
+        g_form.setValue('table_name', 'x_801107_library_m_members');
+    }
+    if (g_form.getValue('member') == false) {
+        g_form.setValue('table_name', 'x_801107_library_m_students');
+    }
+    return;
+
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-02 09:44:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>13847246475521104f7fee38436d435a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>change table name</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>sys_script_client_13847246475521104f7fee38436d435a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-02 09:51:27</sys_updated_on>
+        <table>x_801107_library_m_books</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">33e049d247c521104f7fee38436d4377</application>
+        <file_path/>
+        <instance_id>e409570adb01a5d0c1a4c59705961937</instance_id>
+        <instance_name>dev149975</instance_name>
+        <name>sys_script_client_13847246475521104f7fee38436d435a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;member&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;change table name&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+//
+    }
+    if (g_form.getValue('member')) {
+        g_form.setValue('table_name', 'x_801107_library_m_members');
+    }
+    if (g_form.getValue('member') == false) {
+        g_form.setValue('table_name', 'x_801107_library_m_students');
+    }
+    return;
+
+    //Type appropriate comment here, and begin script below
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-02 09:44:41&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;13847246475521104f7fee38436d435a&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;change table name&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Library Management" source="x_801107_library_m"&gt;33e049d247c521104f7fee38436d4377&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management"&gt;33e049d247c521104f7fee38436d4377&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_13847246475521104f7fee38436d435a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-02 09:51:27&lt;/sys_updated_on&gt;&lt;table&gt;x_801107_library_m_books&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>412994283</payload_hash>
+        <record_name>change table name</record_name>
+        <reverted_from/>
+        <source>33e049d247c521104f7fee38436d4379</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-02 09:51:27</sys_created_on>
+        <sys_id>87073ac6475521104f7fee38436d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186a1bbd70a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-02 09:51:27</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>cf073ac6735521100034f098579d23c7</update_guid>
+        <update_guid_history>cf073ac6735521100034f098579d23c7:412994283,fad6ba861255211036529159ca6bd98f:1941989260,dbc532865b5521108ba6abd9189c67ac:1934089771,55a5be06e1552110e1e67bcb7939c447:-801239509,7f75bac2515521107d811ea120d0e47a:661195845</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-02 10:06:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>2d923e4c7080437297d7560267addba4</sys_id>
+        <sys_metadata>13847246475521104f7fee38436d435a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>change table name</sys_name>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_parent display_value="Books">43d28d9647c521104f7fee38436d43d1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_scope_delete display_value="">0fc6264ed90343b0bb364fa873519240</sys_scope_delete>
+        <sys_update_name>sys_script_client_13847246475521104f7fee38436d435a</sys_update_name>
+        <sys_update_version display_value="sys_script_client_13847246475521104f7fee38436d435a">87073ac6475521104f7fee38436d43c8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-02 10:06:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>extend</action_name>
+        <active>false</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>gs.hasRole("admin")&amp;&amp;(current.assigned_to!="")</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Extend Due Date </name>
+        <onclick>extendDateTime()</onclick>
+        <order>100</order>
+        <script><![CDATA[var gdt = new GlideDateTime();
+gdt.addDaysUTC(7);
+current.return_date_time = gdt;
+current.update();
+var gr = new GlideRecord('x_801107_library_m_assignment_history');
+gr.addQuery('assigned_date_time', current.assigned_date_time);
+gr.addQuery('book', current.sys_id);
+gr.addQuery('assigned_to', current.assigned_to);
+gr.query();
+while (gr.next()) {
+    gr.setValue('returned_date_time', current.return_date_time);
+    gr.update();
+}
+
+action.setRedirectURL(current);
+//  &&(gs.daysAgo(0) < current.return_date_time)]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 09:47:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>81cd901f47c561104f7fee38436d43c4</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>Extend Due Date </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library MAnagement" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library MAnagement">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>sys_ui_action_81cd901f47c561104f7fee38436d43c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-22 03:57:00</sys_updated_on>
+        <table>x_801107_library_m_books</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">33e049d247c521104f7fee38436d4377</application>
+        <file_path/>
+        <instance_id>e409570adb01a5d0c1a4c59705961937</instance_id>
+        <instance_name>dev149975</instance_name>
+        <name>sys_ui_action_81cd901f47c561104f7fee38436d43c4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;extend&lt;/action_name&gt;&lt;active&gt;false&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;gs.hasRole("admin")&amp;amp;&amp;amp;(current.assigned_to!="")&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style&gt;primary&lt;/form_style&gt;&lt;format_for_configurable_workspace&gt;true&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Extend Due Date &lt;/name&gt;&lt;onclick&gt;extendDateTime()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[var gdt = new GlideDateTime();
+gdt.addDaysUTC(7);
+current.return_date_time = gdt;
+current.update();
+var gr = new GlideRecord('x_801107_library_m_assignment_history');
+gr.addQuery('assigned_date_time', current.assigned_date_time);
+gr.addQuery('book', current.sys_id);
+gr.addQuery('assigned_to', current.assigned_to);
+gr.query();
+while (gr.next()) {
+    gr.setValue('returned_date_time', current.return_date_time);
+    gr.update();
+}
+
+action.setRedirectURL(current);
+//  &amp;&amp;(gs.daysAgo(0) &lt; current.return_date_time)]]&gt;&lt;/script&gt;&lt;show_insert&gt;false&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 09:47:05&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;81cd901f47c561104f7fee38436d43c4&lt;/sys_id&gt;&lt;sys_mod_count&gt;39&lt;/sys_mod_count&gt;&lt;sys_name&gt;Extend Due Date &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Library MAnagement" source="x_801107_library_m"&gt;33e049d247c521104f7fee38436d4377&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library MAnagement"&gt;33e049d247c521104f7fee38436d4377&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_81cd901f47c561104f7fee38436d43c4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-22 03:57:00&lt;/sys_updated_on&gt;&lt;table&gt;x_801107_library_m_books&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-714653278</payload_hash>
+        <record_name>Extend Due Date </record_name>
+        <reverted_from/>
+        <source>33e049d247c521104f7fee38436d4379</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-22 03:57:00</sys_created_on>
+        <sys_id>f039d0234785a1104f7fee38436d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1867744757d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-22 03:57:00</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>3c39d023e485a110c7694d2bb36b4dc9</update_guid>
+        <update_guid_history>3c39d023e485a110c7694d2bb36b4dc9:-714653278,e83998ef0445a110cb497773042483a8:-1168218309,113814ef3045a11023857344d81d6007:687370338,e4fd89db5c89611095eb6602f44041eb:-1403748757,9dc38513248961107a514ecb3f091268:-873804891,2d134513828961100657630e122c90fd:-1142679456,49c20d9fba4961102f7623da1442b598:-1183974172,85d00d5f5149611066d22294318f4c21:2102730609,8a70451f97496110236c44a714feaf80:1941393348,2810c11f1b496110f828b8d645dfcb44:-837940943,c8ee389bbf4961100065d00f7cdfb833:614200211,c17ef8db9d49611071b660c1d8dfd4bf:-1293416899,4b8df89b474961106ccfb385fdd127dd:-1812744144,507d789b44496110474485b8ae8f85a1:-1025340814,e54d3cdfec096110a6bce8b9eba8e803:612977080,8491f8df4f096110b61a226f485c185a:2016655260,80517c9f9b096110e390ac62ad6c2264:596763350,92e03c9f9b09611033982d36ddaad89c:-1892902610,bcb0745feb096110dd3e587e70448d62:-233021452,95203c5f400961107a7d5a9b1f38fa17:1342931652,91bf2c5f600961100591b63025d03d11:-640654931,5c4f681f1b096110dd635b01ce0e359e:1213868560,bd4ee01fcb096110a9067b7f0a5f752d:290213748,5c2ea01f6b096110c59f767c48fd6778:-2045660210,6ffd6c97b5096110984468aafc0de6cb:-727819853,0f486897ac09611028c4bb0525290b5b:726646411,29272857b6096110386affeda7c4b574:-1205599930,47262c5302096110b78d1265163ef3cf:-1747415470,18b5a017690961101789e94077f3c702:-211538734,bc436c13a20961101f2a4c17723879c1:1261878201,c2b2e0538c0961103b2d64e2e71e54b6:1936691016,bd42a8132c09611069074ccdebf45e41:-780218662,7312a413c509611021efd85a21bbd06e:391108500,8e0264138a09611083ccb8349a825cad:582133999,16e1acdf2ec56110192b2e84b32a3f1f:142893787,f271a0df90c56110134f5b17c38ac328:1387711684,a241609f6bc561108564799096d898cc:1500155957,63f0a09fadc56110a90231184263d36d:587577343,b5c0649fd5c56110ab3e7aa601e4cf2d:706948225,5fbf509f6bc56110360d9a42f91cb8c3:410941445</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-01 09:29:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>0c298b647c824dc7928ee4855036cf09</sys_id>
+        <sys_metadata>81cd901f47c561104f7fee38436d43c4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Extend Due Date </sys_name>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_parent display_value="Books">43d28d9647c521104f7fee38436d43d1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_scope_delete display_value="">0fc6264ed90343b0bb364fa873519240</sys_scope_delete>
+        <sys_update_name>sys_ui_action_81cd901f47c561104f7fee38436d43c4</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_81cd901f47c561104f7fee38436d43c4">f039d0234785a1104f7fee38436d43ca</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-01 09:29:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

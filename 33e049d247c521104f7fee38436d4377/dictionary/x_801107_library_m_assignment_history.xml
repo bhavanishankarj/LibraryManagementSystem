@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="066effb647c521104f7fee38436d43d0" label="Assignment History" max_length="40" name="x_801107_library_m_assignment_history" type="collection">
+        <element label="Assigned By" mandatory="true" max_length="32" name="assigned_by" reference="x_801107_library_m_staff" type="reference"/>
+        <element label="Assigned Date Time" mandatory="true" max_length="40" name="assigned_date_time" type="glide_date_time"/>
+        <element label="Assigned To" mandatory="true" max_length="32" name="assigned_to" reference="x_801107_library_m_students" type="reference"/>
+        <element display="true" label="Book" mandatory="true" max_length="32" name="book" reference="x_801107_library_m_books" type="reference"/>
+        <element active="false" label="Extended once" max_length="40" name="extended_once" read_only="true" type="boolean"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Number of Days" max_length="40" name="number_of_days" type="integer"/>
+        <element label="Remarks" max_length="150" name="remarks" type="string"/>
+        <element label="Return Due On" max_length="40" name="returned_date_time" type="glide_date_time"/>
+        <element label="Returned On" max_length="40" name="returned_on" type="glide_date_time"/>
+        <element label="Return Checked By" max_length="32" name="return_checked_by" reference="x_801107_library_m_staff" type="reference"/>
+        <element choice="3" default="issued" label="Status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Issued" sequence="100" value="issued"/>
+                <element inactive_on_update="false" label="Extended" sequence="200" value="extended"/>
+                <element inactive_on_update="false" label="Returned" sequence="300" value="returned"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assigned_by"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index3">
+            <element name="book"/>
+        </index>
+        <index name="index4">
+            <element name="return_checked_by"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>sys_ux_applicability sys_id for Workspace audience</description>
+        <name>wbApplicabilityConfigId</name>
+        <page display_value="Library MAnagement">d3bc3fd432d1611038b82931973ed379</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 04:26:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>9fbc3fd4d7d16110f543473e7971867f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>wbApplicabilityConfigId</sys_name>
+        <sys_package display_value="Library MAnagement" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library MAnagement">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>sys_ux_page_property_9fbc3fd4d7d16110f543473e7971867f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 04:26:37</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_801107_library_m.d3bc3fd432d1611038b82931973ed379.root.wbApplicabilityConfigId</unique_name>
+        <value>c0cc7fd447d161104f7fee38436d4367</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=9fbc3fd4d7d16110f543473e7971867f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">33e049d247c521104f7fee38436d4377</application>
+        <file_path/>
+        <instance_id>e409570adb01a5d0c1a4c59705961937</instance_id>
+        <instance_name>dev149975</instance_name>
+        <name>sys_ux_page_property_9fbc3fd4d7d16110f543473e7971867f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>sys_ux_applicability sys_id for Workspace audience</description><name>wbApplicabilityConfigId</name><page display_value="Library MAnagement">d3bc3fd432d1611038b82931973ed379</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-25 04:26:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>9fbc3fd4d7d16110f543473e7971867f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>wbApplicabilityConfigId</sys_name><sys_package display_value="Library MAnagement" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package><sys_policy/><sys_scope display_value="Library MAnagement">33e049d247c521104f7fee38436d4377</sys_scope><sys_update_name>sys_ux_page_property_9fbc3fd4d7d16110f543473e7971867f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-25 04:26:37</sys_updated_on><type>string</type><unique_name>x_801107_library_m.d3bc3fd432d1611038b82931973ed379.root.wbApplicabilityConfigId</unique_name><value>c0cc7fd447d161104f7fee38436d4367</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=9fbc3fd4d7d16110f543473e7971867f"/></record_update>]]></payload>
+        <payload_hash>1385566374</payload_hash>
+        <record_name>wbApplicabilityConfigId</record_name>
+        <reverted_from/>
+        <source>33e049d247c521104f7fee38436d4379</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 04:26:37</sys_created_on>
+        <sys_id>4ccc7fd447d161104f7fee38436d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18686d2a8280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 04:26:37</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>44cc7fd4fdd16110135661b0b688f96c</update_guid>
+        <update_guid_history>44cc7fd4fdd16110135661b0b688f96c:1385566374,cccc7fd4d8d16110ed42754124a7bd6a:-774086989</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-27 15:27:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>4495cc5ed39c459b9b6b42b1fbc51771</sys_id>
+        <sys_metadata>9fbc3fd4d7d16110f543473e7971867f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>wbApplicabilityConfigId</sys_name>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_scope_delete display_value="">0fc6264ed90343b0bb364fa873519240</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_9fbc3fd4d7d16110f543473e7971867f</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_9fbc3fd4d7d16110f543473e7971867f">4ccc7fd447d161104f7fee38436d436c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-27 15:27:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

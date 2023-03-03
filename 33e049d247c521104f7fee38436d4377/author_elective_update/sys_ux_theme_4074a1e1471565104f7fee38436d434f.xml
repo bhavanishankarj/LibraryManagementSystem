@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="DELETE">
+        <active>true</active>
+        <description/>
+        <name>Default</name>
+        <parent/>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-28 14:33:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4074a1e1471565104f7fee38436d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>sys_ux_theme_4074a1e1471565104f7fee38436d434f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-28 14:33:52</sys_updated_on>
+        <theme/>
+    </sys_ux_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">33e049d247c521104f7fee38436d4377</application>
+        <file_path/>
+        <instance_id>e409570adb01a5d0c1a4c59705961937</instance_id>
+        <instance_name>dev149975</instance_name>
+        <name>sys_ux_theme_4074a1e1471565104f7fee38436d434f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme"><sys_ux_theme action="INSERT_OR_UPDATE"><active>true</active><description/><name>Default</name><parent/><sys_class_name>sys_ux_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-28 14:33:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4074a1e1471565104f7fee38436d434f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default</sys_name><sys_overrides/><sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package><sys_policy/><sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope><sys_update_name>sys_ux_theme_4074a1e1471565104f7fee38436d434f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-28 14:33:52</sys_updated_on><theme/></sys_ux_theme></record_update>]]></payload>
+        <payload_hash>194099302</payload_hash>
+        <record_name>Default</record_name>
+        <reverted_from/>
+        <source>33e049d247c521104f7fee38436d4379</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-28 14:33:52</sys_created_on>
+        <sys_id>a884e1e1471565104f7fee38436d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1869871adb50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-28 14:33:52</sys_updated_on>
+        <type>UX Theme</type>
+        <update_guid>e084e1e10e15651013eec28826df1874</update_guid>
+        <update_guid_history>e084e1e10e15651013eec28826df1874:194099302</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-28 14:34:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_theme">sys_ux_theme</sys_db_object>
+        <sys_id>210e29149c9242dc95eeed8e677fd410</sys_id>
+        <sys_metadata>4074a1e1471565104f7fee38436d434f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_scope_delete display_value="">0fc6264ed90343b0bb364fa873519240</sys_scope_delete>
+        <sys_update_name>sys_ux_theme_4074a1e1471565104f7fee38436d434f</sys_update_name>
+        <sys_update_version display_value="sys_ux_theme_4074a1e1471565104f7fee38436d434f">a884e1e1471565104f7fee38436d4374</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-28 14:34:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

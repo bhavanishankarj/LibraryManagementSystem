@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="19598855471125104f7fee38436d43e7" extends="sys_user" label="Members" max_length="40" name="x_801107_library_m_members" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Membership valid from" max_length="40" name="valid_from" read_only="true" type="glide_date_time"/>
+        <element label="Membership Valid upto" max_length="40" name="valid_upto" read_only="true" type="glide_date_time"/>
+    </element>
+</database>

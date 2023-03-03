@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>f8adf7580dd16110778003fa457cce09</name>
+        <operation display_value="execute">execute</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-25 04:30:31</sys_created_on>
+        <sys_id>70adf75830d161109e937da81a9a440a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f8adf7580dd16110778003fa457cce09</sys_name>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>sys_security_acl_70adf75830d161109e937da81a9a440a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-25 04:30:31</sys_updated_on>
+        <type display_value="ux_data_broker">6d9c40e9531210101cb3ddeeff7b12f6</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">33e049d247c521104f7fee38436d4377</application>
+        <file_path/>
+        <instance_id>e409570adb01a5d0c1a4c59705961937</instance_id>
+        <instance_name>dev149975</instance_name>
+        <name>sys_security_acl_70adf75830d161109e937da81a9a440a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><name>f8adf7580dd16110778003fa457cce09</name><operation display_value="execute">execute</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-02-25 04:30:31</sys_created_on><sys_id>70adf75830d161109e937da81a9a440a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>f8adf7580dd16110778003fa457cce09</sys_name><sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package><sys_policy/><sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope><sys_update_name>sys_security_acl_70adf75830d161109e937da81a9a440a</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-02-25 04:30:31</sys_updated_on><type display_value="ux_data_broker">6d9c40e9531210101cb3ddeeff7b12f6</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1330939498</payload_hash>
+        <record_name>f8adf7580dd16110778003fa457cce09</record_name>
+        <reverted_from/>
+        <source>778a2702470121104f7fee38436d4305</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-02-18 03:20:49</sys_created_on>
+        <sys_id>42e4249e47d921104f7fee38436d43d6</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1866289e2680000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Access Control</type>
+        <update_guid>02e4249e6ed92110cfbc110ad3a82dd6</update_guid>
+        <update_guid_history>02e4249e6ed92110cfbc110ad3a82dd6:1330939498</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-02 17:51:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>29fbcf8ade164fec9f1fbb10e58bb484</sys_id>
+        <sys_metadata>70adf75830d161109e937da81a9a440a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f8adf7580dd16110778003fa457cce09</sys_name>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_scope_delete display_value="">0fc6264ed90343b0bb364fa873519240</sys_scope_delete>
+        <sys_update_name>sys_security_acl_70adf75830d161109e937da81a9a440a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_70adf75830d161109e937da81a9a440a">42e4249e47d921104f7fee38436d43d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-02 17:51:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

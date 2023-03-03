@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ts_column_attribute_map">
+    <ts_column_attribute_map action="INSERT_OR_UPDATE">
+        <column>published_year</column>
+        <name display_value="No Text Index">30ac253b53032300d0baddeeff7b1203</name>
+        <sys_class_name>ts_column_attribute_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-25 04:09:35</sys_created_on>
+        <sys_id>91c8779047d161104f7fee38436d43eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>30ac253b53032300d0baddeeff7b1203</sys_name>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>ts_column_attribute_map_91c8779047d161104f7fee38436d43eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-25 04:09:35</sys_updated_on>
+        <table>x_801107_library_m_books</table>
+        <ts_configuration display_value="x_801107_library_m_books">baa7bb1047d161104f7fee38436d4316</ts_configuration>
+        <value>true</value>
+    </ts_column_attribute_map>
+</record_update>

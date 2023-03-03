@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_801107_library_m_books</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_801107_library_m_books">assigned_toVALCHANGES^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Set Date Time</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    var days;
+    var gdt = new GlideDateTime();
+    var addgdt = new GlideDateTime();
+	current.assigned_by = gs.getUserId();
+    try {
+        if (current.assigned_to && current.table_name == 'x_801107_library_m_students') {
+            // 		current.assigned_date_time = new GlideDateTime().getDisplayValue();
+            // 	current.return_date_time = gs.daysAgo(-10);
+            current.assigned_date_time = gdt;
+            addgdt.addDaysUTC(10);
+            current.return_date_time = addgdt;
+        } else if (current.assigned_to && current.table_name == 'x_801107_library_m_members') {
+            current.assigned_date_time = gdt;
+            addgdt.addDaysUTC(20);
+            current.return_date_time = addgdt;
+        } else {
+            current.assigned_date_time = "";
+            current.return_date_time = "";
+        }
+    } catch (e) {
+        gs.addInfoMessage("set date time ", e);
+    }
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 07:03:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7d687fc7474561104f7fee38436d4313</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Set Date Time</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>sys_script_7d687fc7474561104f7fee38436d4313</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-02 10:55:06</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=7d687fc7474561104f7fee38436d4313"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">33e049d247c521104f7fee38436d4377</application>
+        <file_path/>
+        <instance_id>e409570adb01a5d0c1a4c59705961937</instance_id>
+        <instance_name>dev149975</instance_name>
+        <name>sys_script_7d687fc7474561104f7fee38436d4313</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_801107_library_m_books&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_801107_library_m_books"&gt;assigned_toVALCHANGES^EQ&lt;item endquery="false" field="assigned_to" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Set Date Time&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    var days;
+    var gdt = new GlideDateTime();
+    var addgdt = new GlideDateTime();
+	current.assigned_by = gs.getUserId();
+    try {
+        if (current.assigned_to &amp;&amp; current.table_name == 'x_801107_library_m_students') {
+            // 		current.assigned_date_time = new GlideDateTime().getDisplayValue();
+            // 	current.return_date_time = gs.daysAgo(-10);
+            current.assigned_date_time = gdt;
+            addgdt.addDaysUTC(10);
+            current.return_date_time = addgdt;
+        } else if (current.assigned_to &amp;&amp; current.table_name == 'x_801107_library_m_members') {
+            current.assigned_date_time = gdt;
+            addgdt.addDaysUTC(20);
+            current.return_date_time = addgdt;
+        } else {
+            current.assigned_date_time = "";
+            current.return_date_time = "";
+        }
+    } catch (e) {
+        gs.addInfoMessage("set date time ", e);
+    }
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 07:03:52&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7d687fc7474561104f7fee38436d4313&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set Date Time&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Library Management" source="x_801107_library_m"&gt;33e049d247c521104f7fee38436d4377&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management"&gt;33e049d247c521104f7fee38436d4377&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_7d687fc7474561104f7fee38436d4313&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-02 10:55:06&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7d687fc7474561104f7fee38436d4313"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>20473496</payload_hash>
+        <record_name>Set Date Time</record_name>
+        <reverted_from/>
+        <source>33e049d247c521104f7fee38436d4379</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-02 10:55:06</sys_created_on>
+        <sys_id>a3954f06479521104f7fee38436d4399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186a1f61dfd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-02 10:55:06</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>6b954f0665952110f7f36ae77432ae98</update_guid>
+        <update_guid_history>6b954f0665952110f7f36ae77432ae98:20473496,4ff3cfc258952110fc5d4479ee339213:442652099,c7424b8213952110abfef9384782bbae:-437350394,05fcf24e1e552110228c1d89a25191ef:563178103,ef8f11f78c09e1106e178b18734e05c7:-1900807074,33cdfbcbf7456110d5086e0503158364:-1372134283,bd9d7b0fd645611093a6b3b6d1a01850:-1700410390,2d5db30f20456110077efffc25014108:-1426833098,6e1d7fcb4f456110d803fb645db3731e:1722554310,31ecb30f78456110e242e0bf207be003:2047687965,278b778bb24561107314805b1d7bec82:987599440,e90b3f4bbd456110195b7a07152b1eae:140812653,d06a3f4bf745611003f7b427a77ac506:555543500</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-02 13:41:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>1fab8e8c11bc49a096146e5e3bdb2210</sys_id>
+        <sys_metadata>7d687fc7474561104f7fee38436d4313</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Date Time</sys_name>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_parent display_value="Books">43d28d9647c521104f7fee38436d43d1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_scope_delete display_value="">0fc6264ed90343b0bb364fa873519240</sys_scope_delete>
+        <sys_update_name>sys_script_7d687fc7474561104f7fee38436d4313</sys_update_name>
+        <sys_update_version display_value="sys_script_7d687fc7474561104f7fee38436d4313">a3954f06479521104f7fee38436d4399</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-02 13:41:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_801107_library_m.checkEligibile</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>checkEligibile</name>
+        <script><![CDATA[function checkEligibile(assignedTo) {
+    try {
+        var eligible;		
+        var count = 0;
+        var gr = new GlideRecord('x_801107_library_m_books');
+        gr.addQuery('assigned_to', assignedTo);
+        gr.query();
+        while (gr.next()) {
+            count += 1;
+            if (roles.includes('x_801107_library_m.members_user')) {
+                if (count == 10) {
+                    eligible = false;
+                } else {
+                    eligible = true;
+                }
+            } else if (!roles.includes('x_801107_library_m.members_user')) {
+                if (count == 5) {
+                    eligible = false;
+                } else {
+                    eligible = true;
+                }
+            }
+        }
+		gs.addInfoMessage(eligible);
+        return eligible;
+    } catch (err) {
+        gs.addErrorMessage("line 29: " + roles.includes('x_801107_library_m.members_user') + " " + err);
+    }
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-02 07:04:06</sys_created_on>
+        <sys_id>73905a8e479121104f7fee38436d4308</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>checkEligibile</sys_name>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>sys_script_include_73905a8e479121104f7fee38436d4308</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-02 10:11:15</sys_updated_on>
+    </sys_script_include>
+</record_update>

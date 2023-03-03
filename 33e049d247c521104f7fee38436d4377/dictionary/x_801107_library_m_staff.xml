@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="003e2aba478121104f7fee38436d43cf" extends="sys_user" label="Staff" max_length="40" name="x_801107_library_m_staff" text_index="true" type="collection">
+        <element label="Age" max_length="40" name="age" type="integer"/>
+    </element>
+</database>

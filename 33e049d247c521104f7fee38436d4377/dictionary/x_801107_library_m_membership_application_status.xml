@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="efc2889d47dde1104f7fee38436d43dd" label="Membership Application" max_length="40" name="x_801107_library_m_membership_application_status" type="collection">
+        <element choice="3" label="Applied thorugh" max_length="40" name="applied_thorugh" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Library" value="library"/>
+                <element inactive_on_update="false" label="Portal" value="portal"/>
+            </choice>
+        </element>
+        <element label="Approved By" max_length="32" name="approved_by" reference="x_801107_library_m_staff" type="reference"/>
+        <element label="Approved on" max_length="40" name="approved_on" type="glide_date_time"/>
+        <element label="City" max_length="50" name="city" type="string"/>
+        <element label="Email" max_length="50" name="email" type="string"/>
+        <element label="First name" max_length="100" name="first_name" type="string"/>
+        <element label="Gender" max_length="20" name="gender" type="string"/>
+        <element label="Government ID" max_length="40" name="government_id" type="file_attachment"/>
+        <element label="Last Name" max_length="50" name="last_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="Status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Applied" sequence="100" value="applied"/>
+                <element inactive_on_update="false" label="Approved" sequence="200" value="approved"/>
+                <element inactive_on_update="false" label="On hold" sequence="300" value="held"/>
+                <element inactive_on_update="false" label="Canceled/Withdrawn" sequence="400" value="canceled"/>
+                <element inactive_on_update="false" label="Pending approval" sequence="500" value="pending"/>
+            </choice>
+        </element>
+        <element label="Membership valid upto" max_length="40" name="valid_upto" type="glide_date_time"/>
+        <index name="index">
+            <element name="approved_by"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ae649ebe470121104f7fee38436d4387" extends="sys_import_set_row" label="imp_books" max_length="40" name="x_801107_library_m_imp_books" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Book-Author" label="Book-Author" max_length="53" name="u_book_author" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Book-Title" label="Book-Title" max_length="200" name="u_book_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ISBN" label="ISBN" max_length="40" name="u_isbn" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Publisher" label="Publisher" max_length="64" name="u_publisher" type="string"/>
+        <element attributes="import_attribute_name=Year-Of-Publication" label="Year-Of-Publication" max_length="40" name="u_year_of_publication" type="integer"/>
+    </element>
+</database>

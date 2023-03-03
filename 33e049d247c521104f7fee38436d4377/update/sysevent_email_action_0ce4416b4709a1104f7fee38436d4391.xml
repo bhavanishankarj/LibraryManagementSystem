@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_801107_library_m_books</collection>
+        <condition table="x_801107_library_m_books">assigned_toISNOTEMPTY^assigned_byISNOTEMPTY^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="assigned_by" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hi ${assigned_to.name},&nbsp;</p>
+<p>The book ${title} is assigned to you by ${assigned_by}.</p>
+<p>Assignment Summary:</p>
+<table style="border-collapse: collapse; width: 76.7953%; height: 92.3748px;" border="5">
+<tbody>
+<tr style="height: 15.3958px;">
+<td style="width: 49.9249%; height: 15.3958px;">Title:&nbsp;</td>
+<td style="width: 50.0748%; height: 15.3958px;">${title}</td>
+</tr>
+<tr style="height: 15.3958px;">
+<td style="width: 49.9249%; height: 15.3958px;">Author:&nbsp;</td>
+<td style="width: 50.0748%; height: 15.3958px;">${author}</td>
+</tr>
+<tr style="height: 15.3958px;">
+<td style="width: 49.9249%; height: 15.3958px;">ISBN:&nbsp;</td>
+<td style="width: 50.0748%; height: 15.3958px;">${isbn}</td>
+</tr>
+<tr style="height: 15.3958px;">
+<td style="width: 49.9249%; height: 15.3958px;">Assigned By:&nbsp;</td>
+<td style="width: 50.0748%; height: 15.3958px;">${assigned_by}</td>
+</tr>
+<tr style="height: 15.3958px;">
+<td style="width: 49.9249%; height: 15.3958px;">Date and Time of Issue:&nbsp;</td>
+<td style="width: 50.0748%; height: 15.3958px;">${assigned_date_time}</td>
+</tr>
+<tr style="height: 15.3958px;">
+<td style="width: 49.9249%; height: 15.3958px;">Return Due On:&nbsp;</td>
+<td style="width: 50.0748%; height: 15.3958px;">${return_date_time}</td>
+</tr>
+</tbody>
+</table>
+<p>Please ensure that you return the book on or before Due Date. To extend due time contact the Chief Librarian.</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Book issue notice</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assigned_to</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Book Issued!</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-22 07:21:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0ce4416b4709a1104f7fee38436d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Book issue notice</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management" source="x_801107_library_m">33e049d247c521104f7fee38436d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">33e049d247c521104f7fee38436d4377</sys_scope>
+        <sys_update_name>sysevent_email_action_0ce4416b4709a1104f7fee38436d4391</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-22 07:21:55</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
